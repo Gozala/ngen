@@ -1,0 +1,30 @@
+{
+  "name": "{{project}}",
+  "id": "{{project}}",
+  "version": "0.0.1",
+  "description": "{{description}}",
+  "keywords": [  ],
+  "author": "{{name}} <{{email}}> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/{{project}}",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/{{project}}.git",
+    "web": "https://github.com/Gozala/{{project}}"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/{{project}}/issues/"
+  },
+  "devDependencies": {
+    "test": ">=0.0.10"
+  },
+  "engines": {
+    "node": "0.4.x"
+  },
+  "scripts": {
+    "test": "node tests/test-all.js"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "http://jeditoolkit.com/LICENSE"
+  }]
+}
