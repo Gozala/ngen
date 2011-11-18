@@ -3,7 +3,7 @@
   "id": "{{project}}",
   "version": "0.0.1",
   "description": "{{description}}",
-  "keywords": [  ],
+  "keywords": [ "{{project}}" ],
   "author": "{{name}} <{{email}}> (http://jeditoolkit.com)",
   "homepage": "https://github.com/{{user}}/{{project}}",
   "repository": {
@@ -18,7 +18,7 @@
     "test": ">=0.0.10"
   },
   "engines": {
-    "node": "0.4.x"
+    "node": ">=0.4.x"
   },
   "scripts": {
     "test": "node tests/test-all.js"
