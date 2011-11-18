@@ -8,4 +8,4 @@
 
 ## Require ##
 
-    var {{project}} = require('https!raw.github.com/Gozala/{{project}}/v0.0.1/{{project}}.js')
+    var {{project}} = require('https!raw.github.com/{{user}}/{{project}}/v0.0.1/{{project}}.js')

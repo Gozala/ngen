@@ -5,14 +5,14 @@
   "description": "{{description}}",
   "keywords": [  ],
   "author": "{{name}} <{{email}}> (http://jeditoolkit.com)",
-  "homepage": "https://github.com/Gozala/{{project}}",
+  "homepage": "https://github.com/{{user}}/{{project}}",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gozala/{{project}}.git",
-    "web": "https://github.com/Gozala/{{project}}"
+    "url": "https://github.com/{{user}}/{{project}}.git",
+    "web": "https://github.com/{{user}}/{{project}}"
   },
   "bugs": {
-    "url": "http://github.com/Gozala/{{project}}/issues/"
+    "url": "http://github.com/{{user}}/{{project}}/issues/"
   },
   "devDependencies": {
     "test": ">=0.0.10"

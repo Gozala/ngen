@@ -27,5 +27,13 @@ exports.variables = {
             '--global',
             'user.email'
         ]).stdout.once('data', callback);
+    },
+    user: function(values, callback) {
+      spawn('git', [
+          '--bare',
+          'config',
+          '--global',
+          'user.user'
+      ]).stdout.once('data', callback);
     }
 };
