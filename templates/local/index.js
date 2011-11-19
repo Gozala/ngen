@@ -33,7 +33,7 @@ exports.variables = {
           '--bare',
           'config',
           '--global',
-          'user.user'
+          'github.user'
       ]).stdout.once('data', callback);
     }
 };
