@@ -4,6 +4,7 @@
 
 {{description}}
 
-## Install
+## Develop
 
-    npm install {{project}}
+    npm install
+    npm run browserify

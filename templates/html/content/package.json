@@ -16,12 +16,14 @@
   },
   "devDependencies": {
     "test": ">=0.4.4",
-    "repl-utils": ">=1.0.0"
+    "repl-utils": ">=1.0.0",
+    "browserify": "~1.x.0"
   },
   "main": "./{{project}}.js",
   "scripts": {
     "test": "node test/index.js",
-    "repl": "node node_modules/repl-utils"
+    "repl": "node node_modules/repl-utils",
+    "browserify": "node ./node_modules/browserify/bin/cmd.js --watch --debug --entry ./{{project}}.js --outfile ./build/{{project}}.js"
   },
   "licenses": [{
     "type" : "MIT",
